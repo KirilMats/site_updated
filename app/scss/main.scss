@@ -1,0 +1,15 @@
+@import "node_modules/css-reset-and-normalize/scss/reset-and-normalize";
+@import "node_modules/sass-rem/rem";
+@import "reset";
+@import "bootstrap-grid.css";
+@import "mixins";
+@import "fonts";
+@import "common";
+@import "preloader";
+@import "bg_strips";
+@import "header";
+@import "footer";
+@import "main_page";
+@import "aboutme";
+@import "portfolio";
+@import "contactme";

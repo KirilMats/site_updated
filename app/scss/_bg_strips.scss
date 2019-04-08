@@ -1,0 +1,33 @@
+.bg_strips{
+	position: absolute;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+
+	.strip{
+		position: relative;
+		margin-left: -60px;
+		height: 200px;
+		width: 200%;
+		background-color: rgba($c1, 0.05);
+		margin-bottom: 60px;
+
+		&:nth-child(4n-2), &:nth-child(4n-1){
+			transform: rotate(15deg);
+			margin-bottom: 60px;
+		}
+		&:nth-child(4n), &:nth-child(4n+1){
+			transform: rotate(-15deg);
+		}
+		&:nth-child(4n){
+			margin-top: -280px;
+		}
+		&:first-child{
+			transform: rotate(-15deg);
+			margin-top: -200px;
+		}
+		&:nth-child(2){
+			margin-top: 280px;
+		}
+	}
+}

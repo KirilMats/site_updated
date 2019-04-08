@@ -1,0 +1,128 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "IntroCond";
+	src: url("../fonts/IntroCondensed/Intro Cond Black Free.eot");
+	src: url("../fonts/IntroCondensed/Intro Cond Black Free.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/IntroCondensed/Intro Cond Black Free.woff") format("woff"),
+	url("../fonts/IntroCondensed/Intro Cond Black Free.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-MediumIt.eot');
+    src: local('../fonts/MinionPro/Minion Pro Medium Italic'), local('../fonts/MinionPro/MinionPro-MediumIt'),
+        url('../fonts/MinionPro/MinionPro-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-MediumIt.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-BoldCn.eot');
+    src: local('../fonts/MinionPro/Minion Pro Bold Condensed'), local('../fonts/MinionPro/MinionPro-BoldCn'),
+        url('../fonts/MinionPro/MinionPro-BoldCn.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-BoldCn.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-BoldCn.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-BoldIt.eot');
+    src: local('../fonts/MinionPro/Minion Pro Bold Italic'), local('../fonts/MinionPro/MinionPro-BoldIt'),
+        url('../fonts/MinionPro/MinionPro-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-BoldIt.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-Medium.eot');
+    src: local('../fonts/MinionPro/Minion Pro Medium'), local('../fonts/MinionPro/MinionPro-Medium'),
+        url('../fonts/MinionPro/MinionPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-Medium.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-SemiboldIt.eot');
+    src: local('../fonts/MinionPro/Minion Pro Semibold Italic'), local('../fonts/MinionPro/MinionPro-SemiboldIt'),
+        url('../fonts/MinionPro/MinionPro-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-SemiboldIt.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-Semibold.eot');
+    src: local('../fonts/MinionPro/Minion Pro Semibold'), local('../fonts/MinionPro/MinionPro-Semibold'),
+        url('../fonts/MinionPro/MinionPro-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-Semibold.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-Bold.eot');
+    src: local('../fonts/MinionPro/Minion Pro Bold'), local('../fonts/MinionPro/MinionPro-Bold'),
+        url('../fonts/MinionPro/MinionPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-Bold.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-BoldCnIt.eot');
+    src: local('../fonts/MinionPro/Minion Pro Bold Condensed Italic'), local('../fonts/MinionPro/MinionPro-BoldCnIt'),
+        url('../fonts/MinionPro/MinionPro-BoldCnIt.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-BoldCnIt.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-BoldCnIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-It.eot');
+    src: local('../fonts/MinionPro/Minion Pro Italic'), local('../fonts/MinionPro/MinionPro-It'),
+        url('../fonts/MinionPro/MinionPro-It.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-It.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro/MinionPro-Regular.eot');
+    src: local('../fonts/MinionPro/Minion Pro Regular'), local('../fonts/MinionPro/MinionPro-Regular'),
+        url('../fonts/MinionPro/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MinionPro/MinionPro-Regular.woff') format('woff'),
+        url('../fonts/MinionPro/MinionPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

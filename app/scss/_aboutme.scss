@@ -1,0 +1,244 @@
+.aboutme_wrap{
+
+	main{
+		position: relative;
+		background-color: $c4;
+
+		.aboutme_chapter{
+			background-color: rgba($c1, 0.5);
+			height: 100px;
+			position: relative;
+			@media only screen and (max-width: 992px){
+				height: 70px;
+			}
+
+			h2{
+				color: $c4;
+				font-size: 40px;
+				line-height: 100px;
+				text-transform: uppercase;
+				@media only screen and (max-width: 992px){
+					font-size: 30px;
+					line-height: 70px;
+				}
+			}
+			.line{
+				height: 2px;
+				width: 300px;
+				background-color: $c4;
+				position: absolute;
+				left: 9%;
+				bottom: 17%;
+				@media only screen and (max-width: 992px){
+					left: 20%;
+					width: 180px;
+				}
+			}
+		}
+		.interests_and_hobbies{
+			padding: 10px 0;
+			min-height: 1000px;
+			background-color: rgba(#352c70, 0.3);
+
+			.aboutme_info{
+				@include flex(row, wrap, space-around, flex-start);
+
+				p.aboutme_desc{
+					@include font(rem(19px), $c4);
+					line-height: rem(24px);
+					margin-top: rem(28px);
+				}
+				.aboutme_photo{
+					height: 200px;
+					width: 200px;
+					border-radius: 50%;
+					@include border(rem(4px), solid, $c4);
+					overflow: hidden;
+					position: relative;
+
+					img{
+						position: absolute;
+						top: -30px;
+						height: 260px;
+						width: 200px;
+					}
+				}
+			}
+			h3.hobbies_header{
+				padding-top: 20px;
+				display: block;
+				width: 100%;
+				padding-right: 50px;
+				text-align: right;
+				font-size: 30px;
+				color: $c3;
+				text-transform: uppercase;
+				font-weight: 500;
+
+				span{
+					color: $c4;
+				}
+			}
+			.contacts_hobbies{
+				@include flex(row, nowrap, space-between, flex-start);
+
+				.contacts{
+					@include flex(column, nowrap, space-around, center);
+					color: $c3;
+					font-size: 24px;
+					padding-top: 60px;
+
+					&>*{
+						margin-bottom: 80px;
+						display: block;
+						text-align: center;
+						display: block;
+						position: relative;
+
+						&:before{
+							content: '';
+							display: block;
+							background-image: url(../img/Contacts/contacts_sprite.svg);
+							background-repeat: no-repeat;
+							position: absolute;
+							top: -70px;
+							left: 50%;
+							margin-left: -22px;
+							background-size: cover;
+						}
+					}
+					address{
+
+						&:before{
+							height: 60px;
+							width: 44px;
+							background-position: 0 0;
+						}
+					}
+					a{
+						color: $c3;
+					}
+					a.tel{
+
+						&:before{
+							height: 60px;
+							width: 60px;
+							background-position: -51px 0;
+						}
+					}
+					a.email{
+
+						&:before{
+							width: 60px;
+							height: 46px;
+							top: -55px;
+							background-position: -90px 0;
+						}
+					}
+				}
+				.hobbies{
+					@include flex(row, wrap, space-between, center);
+					padding-top: 50px;
+					width: 450px;
+
+					&>*{
+						position: relative;
+						overflow: hidden;
+						border-radius: 50%;
+						background-color: $c4;
+						height: 100px;
+						width: 100px;
+						margin-bottom: 20px;
+						color: $c5;
+						font-size: 16px;
+						font-weight: 500;
+						text-align: center;
+						line-height: 130px;
+
+						&:before{
+							content: '';
+							display: block;
+							background-image: url(../img/About_me/hobbies_sprite.svg);
+							background-repeat: no-repeat;
+							position: absolute;
+							left: 50%;
+							margin-left: -25px;
+							background-size: 440% 230%;
+						}
+					}
+					.music{
+						&:before{
+							height: 50px;
+							width: 50px;
+							background-position: -8px 0;
+						}
+					}
+					.movies{
+						&:before{
+							height: 44px;
+							width: 50px;
+							background-position: -55px 0;
+						}
+					}
+					.tea{
+						&:before{
+							height: 44px;
+							width: 50px;
+							background-position: 0 0;
+						}
+					}
+					.board_games{
+						&:before{
+							height: 44px;
+							width: 50px;
+							background-position: 0 0;
+						}
+					}
+					.quitar{
+						&:before{
+							height: 44px;
+							width: 50px;
+							background-position: 0 0;
+						}
+					}
+					.traveling{
+						&:before{
+							height: 44px;
+							width: 50px;
+							background-position: 0 0;
+						}
+					}
+					.hiking{
+						&:before{
+							height: 44px;
+							width: 50px;
+							background-position: 0 0;
+						}
+					}
+					.youtube{
+						&:before{
+							height: 44px;
+							width: 50px;
+							background-position: 0 0;
+						}
+					}
+				}
+			}
+		}
+
+		.resume{
+			min-height: 1000px;
+			background-color: rgba($c1, 0.5);
+			padding: 20px 0;
+			font-size: 24px;
+			color: $c4;
+
+			h3{
+				font-size: 32px;
+				font-weight: 500;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+}

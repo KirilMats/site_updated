@@ -1,0 +1,114 @@
+.page_wrap{
+	
+	header{
+		.custom_header_wrap{
+			height: auto;
+			
+			&.registration_wrap{
+
+				.header_wrap{
+					top: 0;
+					bottom: auto;
+					min-height: rem(60px);
+				}
+			}
+		}
+	}
+	main{
+		.main_content{
+			width: 60%;
+			margin: 30px auto;
+			@include flex(column, nowrap, flex-start, center);
+			font-size: rem(24px);
+			
+			%content-cell{
+				margin: 5px;
+				width: 100%;
+				padding: 10px;
+				@include border(2px, solid, grey);
+			}
+			i{
+				@extend %content-cell;
+				font-style: italic;
+			}
+			p{
+				@extend %content-cell;
+			}
+			.form_wrap{
+				margin: 50px auto;
+			
+				form{
+					%input-textares-common{
+						border: 1px solid #4A8AF4;
+						border-radius: 5px;
+						outline: none;
+						width: 250px;
+						color: #282923;
+
+						&:focus{
+							border: 2px solid #4A8AF4;
+							border-radius: 5px;
+						}
+					}
+					input:not(.gender){
+						@extend %input-textares-common;
+						padding: 0 5px;
+						height: 30px;
+					}
+					textarea{
+						@extend %input-textares-common;
+						resize: none;
+						padding: 5px;
+						height: 50px;
+					}
+					label{
+						padding-right: 5px;
+					}
+					tr{
+
+						td{
+							padding-bottom: 10px;
+
+							&:first-child{
+								text-align: right;
+							}
+						}
+						&:last-child input{
+							margin-top: 10px;
+							width: 100px;
+							height: 40px;
+							border: none;
+							border-radius: 10px;
+							cursor: pointer;
+							background-color: #4A8AF4;
+							color: #fff;
+							
+							&:hover{
+								background-color: #88B1F4;
+							}
+							&:active{
+								background-color: #2273F4;
+							}
+						}
+					}
+					fieldset{
+						border: 2px solid #4A8AF4;
+						padding: 30px;
+						
+						legend{
+							font-weight: bold;
+							font-size: 20px;
+							color: #090909;
+						}
+					}
+					input::-webkit-outer-spin-button,
+					input::-webkit-inner-spin-button{
+					    /* display: none; <- Crashes Chrome on hover */
+					    -webkit-appearance: none;
+					    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+					}
+				}
+			}
+		}
+	}
+}

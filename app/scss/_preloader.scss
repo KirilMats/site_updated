@@ -1,0 +1,46 @@
+.preloader{
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	z-index: 10;
+	background-color: $c4;
+
+	.loader{
+		width: 75px;
+		height: 75px;
+		position: absolute;
+		@include border-rad(5px, solid, $c3, 50%);
+		border-top-color: $c1;
+		border-bottom-color: $c2;
+		top: 50%;
+		left: 50%;
+		margin: -37px 0 0 -37px;
+		animation: 2s spin infinite linear;
+	}
+	.loader_perc{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 75px;
+		margin: -12px 0 0 -37px;
+		text-align: center;
+		color: $c3;
+		font-size: rem(24px);
+	}
+	&.done{
+		display: none;
+	}
+	@keyframes spin{
+		from{
+			opacity: 1;
+			transform: rotate(0deg);
+		}
+		to{
+			opacity: 0;
+			transform: rotate(360deg);
+		}
+	}
+}
